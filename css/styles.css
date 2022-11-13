@@ -1,6 +1,16 @@
+/*
+COLOURS TO BE USED
+Dark  Colour :-#151827
+Teal  Colour :-#26acc8
+Yello Colour :-#e1d521
+Pink  Colour :-#d876b2
+Under Colour :-#eb0084
+Text  Colur  :-#ece8e8
+*/
+
+
 body{
-	background: #F2E7D5;
-	margin: 0px;
+	background-color: #ece8e8;
 }
 
 #topbar{
@@ -8,7 +18,7 @@ body{
 	height: 100px;
 	margin-left: 0px;
 	width: 95rem;
-	background: #6D9886;
+	background: #151827;
 }
 
 .b1{
@@ -135,7 +145,7 @@ blockquote:before {
     content: "\201C";
     color: #393E46;
 }
-blockquote:after {
+/*blockquote:after {
     font-family: Georgia, serif;
     position: absolute;
     display: block; 
@@ -145,7 +155,7 @@ blockquote:after {
     right:0;
     bottom:-0.5em;
     content: "\201D";
-}
+}*/
 blockquote footer {
     padding: 0 2em 0 0;
     text-align:right;
@@ -262,8 +272,8 @@ blockquote cite:before {
 }
 .c-viewer__iframem{
 	position: absolute;
-    height: 170px;
-    width: 200px;
+    height: 13rem;
+    width: 20rem;
     top: 130px;
     left: 80em;
     border: none;
