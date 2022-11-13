@@ -1,0 +1,478 @@
+body{
+	background: #F2E7D5;
+	margin: 0px;
+}
+
+#topbar{
+	margin: 0px;
+	height: 100px;
+	margin-left: 0px;
+	width: 95rem;
+	background: #6D9886;
+}
+
+.b1{
+	float: right;
+	width: 130px;
+	margin-top: 28px;
+	display: inline-block;
+	margin-right: 100px;
+	padding: 8px;
+	border-radius: 15px;
+	border: 2px solid black;
+	background-color: bisque;
+}
+
+.b2{
+	float: right;
+	width: 130px;
+	margin-top: 28px;
+	display: inline-block;
+	margin-right: 100px;
+	padding: 8px;
+	border-radius: 15px;
+	border: 2px solid black;
+	background-color: bisque;
+}
+
+.eimg{
+	margin-top: 400px;
+	margin-left: -75px;
+	display: inline-block;
+}
+
+#etext{
+	text-align: 50px;
+	margin-top: -200px;
+	margin-left: 320px;
+	color: black;
+}
+
+.l-mid-text{
+	justify-content: center;
+	padding: 8em;
+}
+.l-mid-text1{			/*only for shivaji.html*/
+	justify-content: center;
+	padding: 13em;
+}
+
+#logo{
+	float: left;
+	margin-left: 10px;
+	width: 80px;
+	display: inline-block;
+}
+
+#logo2{
+	float: left;
+	margin-left: -63px;
+	margin-top: 40px;
+	width: 40px;
+
+	display: inline-block;
+}
+
+#header{
+	position: relative;
+	width: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.7em;
+	font-weight: bolder;
+	white-space: pre;
+	margin-top: -2.5em;
+	margin-bottom: 0em;
+	margin-left: -4em;
+	color: #393E46;
+}
+
+#fort1{
+	position: relative;
+	width: 17em;
+	border-radius: 2em;
+	margin-left: 16em;
+	top: -15em;
+	height: 330px;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+#ellora{
+	position: relative;
+	display: inline-block;
+	width: 17em;
+	border-radius: 2em;
+	margin-left: 13em;
+	top: -15em;
+	height: 330px;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.sub-text{
+	margin-top: -70px;
+	padding-left: 150px;
+	padding-right: 150px;
+	justify-items: center;
+	white-space: pre-wrap;
+}
+
+blockquote {
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    position: relative;
+    top: -4em;
+    margin: 0.5em;
+    padding: 0.5em 2em 0.5em 3em;
+    color: #393E46;
+}
+
+blockquote:before {
+    font-family: Georgia, serif;
+    position: absolute;
+    font-size: 12em;
+    line-height: 1;
+    top: -0.2em;
+    left: 0.2em;
+    content: "\201C";
+    color: #393E46;
+}
+blockquote:after {
+    font-family: Georgia, serif;
+    position: absolute;
+    display: block; 
+    float:right;
+    font-size:6em;
+    line-height: 1;
+    right:0;
+    bottom:-0.5em;
+    content: "\201D";
+}
+blockquote footer {
+    padding: 0 2em 0 0;
+    text-align:right;
+}
+blockquote cite:before {
+    content: "\2013";
+}
+
+.mid-text{
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    position: relative;
+    top: -5em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+}
+
+.list-text{
+	font-family: Georgia, serif;
+    font-size: 1.5em;
+    position: relative;
+    top: -9em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+}
+
+#ellora{
+	position: relative;
+	width: 17em;
+	border-radius: 2em;
+	margin-left: 15em;
+	top: -15em;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+#gateway{
+	position: relative;
+	margin-top: 7em;
+    width: 17em;
+    border-radius: 2em;
+    margin-left: 3em;
+    top: -15em;
+    display: inline-block;
+    box-shadow: 0px 3px 15px rgb(0 0 0 / 20%);
+}
+.ellora-mid-text{
+    font-family: system-ui;
+    font-size: 1.5em;
+    text-decoration-style: none;
+    position: relative;
+    top: -5em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+	white-space: pre-wrap;
+}
+
+.ellora-mid-text1{			/*this only for tiger cave*/
+    font-family: Georgia, serif;
+    font-size: 1.5em;
+    position: relative;
+    top: 10em;
+    margin: 3em;
+	white-space: pre-wrap;
+}
+
+.s-text{
+	font-family: system-ui;
+    font-size: 1.5em;
+    text-decoration-style: none;
+    position: relative;
+    top: -5em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+	white-space: pre-wrap;
+}
+
+.gateway-mid-text{
+	font-family: system-ui;
+    font-size: 1.5em;
+    text-decoration-style: none;
+    position: relative;
+    top: 12em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+	white-space: pre-wrap;
+}
+
+#tiger-mid-text1{
+	font-family: system-ui;
+    font-size: 1.5em;
+    text-decoration-style: none;
+    position: relative;
+    top: 8em;
+    margin: 0em;
+	white-space: pre-wrap;
+	padding-left: 150px;
+	padding-right: 150px;
+	color: #393E46;
+	white-space: pre-wrap;
+}
+.c-viewer__iframem{
+	position: absolute;
+    height: 170px;
+    width: 200px;
+    top: 130px;
+    left: 80em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe {
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 10em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe2 {
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 35em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+
+
+.c-viewer__iframe3 {
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 60em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe4{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 18em;
+    left: 38em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe5{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 18em;
+    left: 10em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe6{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 18em;
+    left: 65em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframea{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 35em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframe8 {      /*for shivaji.html only*/
+    position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 18em;
+    left: 35em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.c-viewer__iframex{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 10em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.c-viewer__iframey{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 35em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.c-viewer__iframez{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 60em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+#img1{
+	position: relative;
+	width: 19em;
+	border-radius: 2em;
+	margin-left: 8em;
+	top: 85em;
+	margin-top: 17em;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	height: 18em;
+}
+
+#img2{
+	position: relative;
+	width: 19em;
+	border-radius: 2em;
+	margin-left: 8em;
+	top: 85em;
+	margin-top: 17em;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	height: 18em;
+}
+
+#img3{
+	position: relative;
+	width: 19em;
+	border-radius: 2em;
+	margin-left: 8em;
+	top: 85em;
+	margin-top: 17em;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+	height: 18em;
+}
+
+
+.search input[type=text]{
+            width:300px;
+            height:25px;
+            border-radius:25px;
+            border: none;
+ 
+        }
+.search{
+	float:right;
+	margin:7px;
+}
+.search button{
+	background-color: #0074D9;
+	color: #f2f2f2;
+    float: right;
+    padding: 5px 10px;
+    margin-right: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+.lmap{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 15em;
+    left: 35em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+.lmap2{
+	position: absolute;
+    height: 20em;
+    width: 20em;
+    top: 0em;
+    left: 0em;
+    border: none;
+	box-shadow: 0px 3px 15px rgba(0,0,0,0.2);
+}
+
+.footer{
+	width: auto;
+	height: 10rem;
+	background: #6D9886;
+}
+
+.insta{
+	width: 1.5rem;
+	margin-left: 40rem;
+	margin-top: 3rem;
+}
+
+.github{
+	width: 1.5rem;
+	margin-left: 1.5rem;
+	margin-top: 3rem;
+}
+.mail{
+	width: 1.5rem;
+	margin-left: 1.5rem;
+	margin-top: 3rem;
+}
