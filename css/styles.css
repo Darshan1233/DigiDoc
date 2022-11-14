@@ -543,8 +543,8 @@ blockquote cite:before {
 
 .footer-basic {
   padding:40px 0;
-  background-color:#74c8f2;
-  color:#f9fafc; 
+  background-color:#f9fafc;
+  color:#000506; 
   box-shadow: 0 0px 12px rgba(0, 0, 0, 0.5);
 }
 
@@ -598,7 +598,7 @@ blockquote cite:before {
   margin-top:15px;
   text-align:center;
   font-size:13px;
-  color:#f9fafc;
+  color:#000506;
   margin-bottom:0;
 }
 
